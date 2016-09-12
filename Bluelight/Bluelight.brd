@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.2" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -150,14 +150,14 @@
 <wire x1="0" y1="50" x2="0" y2="0" width="0" layer="20"/>
 <polygon width="0.254" layer="41">
 <vertex x="0" y="44.2"/>
-<vertex x="33.5" y="44.2"/>
-<vertex x="33.5" y="50.5"/>
+<vertex x="30" y="44.2"/>
+<vertex x="30" y="50.5"/>
 <vertex x="0" y="50.5"/>
 </polygon>
 <polygon width="0.254" layer="42">
 <vertex x="0" y="50.5"/>
-<vertex x="33.5" y="50.5"/>
-<vertex x="33.5" y="44.2"/>
+<vertex x="29.9" y="50.5"/>
+<vertex x="29.9" y="44.2"/>
 <vertex x="0" y="44.2"/>
 </polygon>
 <hole x="3.8" y="22" drill="2.2"/>

@@ -328,7 +328,7 @@ Standard 8.5x11 US Letter frame</description>
 <rectangle x1="-2.35" y1="-2.35" x2="2.35" y2="2.35" layer="31"/>
 <smd name="VSS@4" x="0" y="0" dx="4.7" dy="4.7" layer="1"/>
 </package>
-<package name="CAP-402">
+<package name="CAP-0402">
 <smd name="1" x="-0.5" y="0" dx="0.6" dy="0.5" layer="1"/>
 <smd name="2" x="0.5" y="0" dx="0.6" dy="0.5" layer="1"/>
 <wire x1="-0.85" y1="0.15" x2="-0.85" y2="0.3" width="0.1" layer="21"/>
@@ -351,7 +351,7 @@ Standard 8.5x11 US Letter frame</description>
 <smd name="P$1" x="-1.3" y="0" dx="1" dy="1.55" layer="1"/>
 <smd name="P$2" x="1.3" y="0" dx="1" dy="1.55" layer="1"/>
 </package>
-<package name="IND-402">
+<package name="IND-0402">
 <smd name="1" x="-0.5" y="0" dx="0.6" dy="0.5" layer="1"/>
 <smd name="2" x="0.5" y="0" dx="0.6" dy="0.5" layer="1"/>
 <wire x1="-0.85" y1="0.15" x2="-0.85" y2="0.3" width="0.1" layer="21"/>
@@ -398,7 +398,7 @@ Standard 8.5x11 US Letter frame</description>
 <smd name="FEED" x="2.55" y="-0.25" dx="0.5" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="GND" x="0.45" y="-0.25" dx="0.9" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
 </package>
-<package name="RES-402">
+<package name="RES-0402">
 <smd name="1" x="-0.5" y="0" dx="0.6" dy="0.5" layer="1"/>
 <smd name="2" x="0.5" y="0" dx="0.6" dy="0.5" layer="1"/>
 <wire x1="-0.85" y1="0.15" x2="-0.85" y2="0.3" width="0.1" layer="21"/>
@@ -470,7 +470,7 @@ Standard 8.5x11 US Letter frame</description>
 <text x="-10.16" y="7.62" size="1.778" layer="94" align="bottom-center">Nordic</text>
 <pin name="VSS@4" x="20.32" y="22.86" visible="pin" length="middle" rot="R180"/>
 </symbol>
-<symbol name="CAP-402">
+<symbol name="CAP-0402">
 <rectangle x1="-2.0828" y1="1.5494" x2="1.9812" y2="2.0574" layer="94"/>
 <rectangle x1="-2.0828" y1="0.4826" x2="1.9812" y2="0.9906" layer="94"/>
 <pin name="2" x="0" y="-2.54" visible="off" length="short" rot="R90"/>
@@ -514,7 +514,7 @@ Standard 8.5x11 US Letter frame</description>
 <text x="1.778" y="5.08" size="1.778" layer="95">&gt;Name</text>
 <text x="1.778" y="2.286" size="1.778" layer="96">&gt;Value</text>
 </symbol>
-<symbol name="IND-402">
+<symbol name="IND-0402">
 <wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
@@ -536,7 +536,7 @@ Standard 8.5x11 US Letter frame</description>
 <pin name="GND" x="-2.54" y="2.54" visible="off" length="short"/>
 <pin name="FEED" x="0" y="0" visible="off" length="point"/>
 </symbol>
-<symbol name="RES-402">
+<symbol name="RES-0402">
 <wire x1="2.54" y1="0" x2="1.778" y2="-1.016" width="0.127" layer="94"/>
 <wire x1="1.778" y1="-1.016" x2="1.27" y2="1.016" width="0.127" layer="94"/>
 <wire x1="1.27" y1="1.016" x2="0.762" y2="-1.016" width="0.127" layer="94"/>
@@ -618,12 +618,12 @@ Standard 8.5x11 US Letter frame</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP-402" prefix="C" uservalue="yes">
+<deviceset name="CAP-0402" prefix="C" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="CAP-402" x="0" y="0"/>
+<gate name="G$1" symbol="CAP-0402" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CAP-402">
+<device name="" package="CAP-0402">
 <connects>
 <connect gate="G$1" pin="1" pad="2"/>
 <connect gate="G$1" pin="2" pad="1"/>
@@ -667,12 +667,12 @@ Standard 8.5x11 US Letter frame</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IND-402" prefix="L" uservalue="yes">
+<deviceset name="IND-0402" prefix="L" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="IND-402" x="0" y="0"/>
+<gate name="G$1" symbol="IND-0402" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="IND-402">
+<device name="" package="IND-0402">
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$2" pad="2"/>
@@ -699,12 +699,12 @@ Standard 8.5x11 US Letter frame</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RES-402" prefix="R" uservalue="yes">
+<deviceset name="RES-0402" prefix="R" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="RES-402" x="0" y="0"/>
+<gate name="G$1" symbol="RES-0402" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="RES-402">
+<device name="" package="RES-0402">
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$2" pad="2"/>
@@ -857,7 +857,7 @@ Now with smashable polarity marks!</description>
 </library>
 <library name="Passives">
 <packages>
-<package name="CAP-402">
+<package name="CAP-0402">
 <smd name="1" x="-0.5" y="0" dx="0.6" dy="0.5" layer="1"/>
 <smd name="2" x="0.5" y="0" dx="0.6" dy="0.5" layer="1"/>
 <wire x1="-0.85" y1="0.15" x2="-0.85" y2="0.3" width="0.1" layer="21"/>
@@ -871,7 +871,7 @@ Now with smashable polarity marks!</description>
 <text x="-0.635" y="0.585" size="0.2" layer="25" align="bottom-center">&gt;Name</text>
 <text x="0.635" y="0.585" size="0.2" layer="27" align="bottom-center">&gt;Value</text>
 </package>
-<package name="RES-402">
+<package name="RES-0402">
 <smd name="1" x="-0.5" y="0" dx="0.6" dy="0.5" layer="1"/>
 <smd name="2" x="0.5" y="0" dx="0.6" dy="0.5" layer="1"/>
 <wire x1="-0.85" y1="0.15" x2="-0.85" y2="0.3" width="0.1" layer="21"/>
@@ -887,7 +887,7 @@ Now with smashable polarity marks!</description>
 </package>
 </packages>
 <symbols>
-<symbol name="CAP-402">
+<symbol name="CAP-0402">
 <rectangle x1="-2.0828" y1="1.5494" x2="1.9812" y2="2.0574" layer="94"/>
 <rectangle x1="-2.0828" y1="0.4826" x2="1.9812" y2="0.9906" layer="94"/>
 <pin name="2" x="0" y="-2.54" visible="off" length="short" rot="R90"/>
@@ -895,7 +895,7 @@ Now with smashable polarity marks!</description>
 <text x="1.524" y="2.794" size="1.778" layer="95">&gt;Name</text>
 <text x="1.524" y="-2.159" size="1.778" layer="96">&gt;Value</text>
 </symbol>
-<symbol name="RES-402">
+<symbol name="RES-0402">
 <wire x1="2.54" y1="0" x2="1.778" y2="-1.016" width="0.127" layer="94"/>
 <wire x1="1.778" y1="-1.016" x2="1.27" y2="1.016" width="0.127" layer="94"/>
 <wire x1="1.27" y1="1.016" x2="0.762" y2="-1.016" width="0.127" layer="94"/>
@@ -914,12 +914,12 @@ Now with smashable polarity marks!</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CAP-402" prefix="C" uservalue="yes">
+<deviceset name="CAP-0402" prefix="C" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="CAP-402" x="0" y="0"/>
+<gate name="G$1" symbol="CAP-0402" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CAP-402">
+<device name="" package="CAP-0402">
 <connects>
 <connect gate="G$1" pin="1" pad="2"/>
 <connect gate="G$1" pin="2" pad="1"/>
@@ -930,12 +930,12 @@ Now with smashable polarity marks!</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RES-402" prefix="R" uservalue="yes">
+<deviceset name="RES-0402" prefix="R" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="RES-402" x="0" y="0"/>
+<gate name="G$1" symbol="RES-0402" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="RES-402">
+<device name="" package="RES-0402">
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$2" pad="2"/>
@@ -3954,43 +3954,43 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="C2" library="Nordic" deviceset="CAP-402" device="" value="47nF"/>
+<part name="C2" library="Nordic" deviceset="CAP-0402" device="" value="47nF"/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C3" library="Nordic" deviceset="CAP-402" device="" value="1nF"/>
+<part name="C3" library="Nordic" deviceset="CAP-0402" device="" value="1nF"/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C4" library="Nordic" deviceset="CAP-402" device="" value="100nF"/>
+<part name="C4" library="Nordic" deviceset="CAP-0402" device="" value="100nF"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C5" library="Nordic" deviceset="CAP-402" device="" value="100nF"/>
+<part name="C5" library="Nordic" deviceset="CAP-0402" device="" value="100nF"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C6" library="Nordic" deviceset="CAP-402" device="" value="100nF"/>
+<part name="C6" library="Nordic" deviceset="CAP-0402" device="" value="100nF"/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C7" library="Nordic" deviceset="CAP-402" device="" value="12pF"/>
-<part name="C8" library="Nordic" deviceset="CAP-402" device="" value="12pF"/>
+<part name="C7" library="Nordic" deviceset="CAP-0402" device="" value="12pF"/>
+<part name="C8" library="Nordic" deviceset="CAP-0402" device="" value="12pF"/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="X1" library="Nordic" deviceset="CRYSTAL-GND" device="2520" value="16MHz"/>
 <part name="X2" library="Nordic" deviceset="CRYSTAL" device="3215" value="32kHz"/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C9" library="Nordic" deviceset="CAP-402" device="" value="12pF"/>
-<part name="C10" library="Nordic" deviceset="CAP-402" device="" value="12pF"/>
+<part name="C9" library="Nordic" deviceset="CAP-0402" device="" value="12pF"/>
+<part name="C10" library="Nordic" deviceset="CAP-0402" device="" value="12pF"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="NO_PACKAGE"/>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="NO_PACKAGE"/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C1" library="Nordic" deviceset="CAP-402" device="" value="2.2nF"/>
-<part name="C11" library="Nordic" deviceset="CAP-402" device="" value="2.2pF"/>
-<part name="C12" library="Nordic" deviceset="CAP-402" device="" value="1.0pF"/>
-<part name="C13" library="Nordic" deviceset="CAP-402" device="" value="1.5pF"/>
+<part name="C1" library="Nordic" deviceset="CAP-0402" device="" value="2.2nF"/>
+<part name="C11" library="Nordic" deviceset="CAP-0402" device="" value="2.2pF"/>
+<part name="C12" library="Nordic" deviceset="CAP-0402" device="" value="1.0pF"/>
+<part name="C13" library="Nordic" deviceset="CAP-0402" device="" value="1.5pF"/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C14" library="Nordic" deviceset="CAP-402" device="" value="0pF"/>
-<part name="C15" library="Nordic" deviceset="CAP-402" device="" value="0pF"/>
+<part name="C14" library="Nordic" deviceset="CAP-0402" device="" value="0pF"/>
+<part name="C15" library="Nordic" deviceset="CAP-0402" device="" value="0pF"/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="L5" library="Nordic" deviceset="IND-402" device="" value="4.7nH"/>
-<part name="L1" library="Nordic" deviceset="IND-402" device="" value="10nH"/>
-<part name="L2" library="Nordic" deviceset="IND-402" device="" value="3.3nH"/>
-<part name="L3" library="Nordic" deviceset="IND-402" device="" value="0nH"/>
+<part name="L5" library="Nordic" deviceset="IND-0402" device="" value="4.7nH"/>
+<part name="L1" library="Nordic" deviceset="IND-0402" device="" value="10nH"/>
+<part name="L2" library="Nordic" deviceset="IND-0402" device="" value="3.3nH"/>
+<part name="L3" library="Nordic" deviceset="IND-0402" device="" value="0nH"/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="ANT1" library="Nordic" deviceset="MEANDER-ANT" device=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="U.FL" device="" value="U.FL"/>
@@ -4007,9 +4007,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND39" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND40" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND41" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C23" library="Nordic" deviceset="CAP-402" device="" value="4.7uF"/>
-<part name="C24" library="Nordic" deviceset="CAP-402" device="" value="4.7uF"/>
-<part name="R6" library="Nordic" deviceset="RES-402" device="" value="2k"/>
+<part name="C23" library="Nordic" deviceset="CAP-0402" device="" value="4.7uF"/>
+<part name="C24" library="Nordic" deviceset="CAP-0402" device="" value="4.7uF"/>
+<part name="R6" library="Nordic" deviceset="RES-0402" device="" value="2k"/>
 <part name="TC2" library="TagConnect" deviceset="TC2030-IDC" device="-NL"/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND34" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -4031,36 +4031,36 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="2M"/>
 <part name="C30" library="SparkFun-Passives" deviceset="CAP" device="1206" value="22uF"/>
 <part name="GND53" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C21" library="Passives" deviceset="CAP-402" device="" value="0.1uF"/>
+<part name="C21" library="Passives" deviceset="CAP-0402" device="" value="0.1uF"/>
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="220k"/>
 <part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="2M"/>
-<part name="C22" library="Passives" deviceset="CAP-402" device="" value="0.1uF"/>
+<part name="C22" library="Passives" deviceset="CAP-0402" device="" value="0.1uF"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device="" value="JST-2"/>
 <part name="U2" library="atmel-samd21" deviceset="ATSAMD21E18A-MUT" device=""/>
-<part name="C25" library="Nordic" deviceset="CAP-402" device="" value="20pF"/>
-<part name="C28" library="Nordic" deviceset="CAP-402" device="" value="20pF"/>
+<part name="C25" library="Nordic" deviceset="CAP-0402" device="" value="20pF"/>
+<part name="C28" library="Nordic" deviceset="CAP-0402" device="" value="20pF"/>
 <part name="GND31" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND42" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND44" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND54" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C31" library="Passives" deviceset="CAP-402" device="" value="1uF"/>
+<part name="C31" library="Passives" deviceset="CAP-0402" device="" value="1uF"/>
 <part name="GND55" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="X4" library="Nordic" deviceset="CRYSTAL" device="3215" value="32kHz"/>
-<part name="R8" library="Passives" deviceset="RES-402" device="" value="100k"/>
-<part name="R11" library="Passives" deviceset="RES-402" device="" value="300k"/>
+<part name="R8" library="Passives" deviceset="RES-0402" device="" value="100k"/>
+<part name="R11" library="Passives" deviceset="RES-0402" device="" value="300k"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R12" library="Passives" deviceset="RES-402" device="" value="4.7k"/>
+<part name="R12" library="Passives" deviceset="RES-0402" device="" value="4.7k"/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U$1" library="EVQ-PF206K" deviceset="EVQ-PF206K" device=""/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="D1" library="SparkFun-LED" deviceset="LED-RGB-CC-THRU" device="DIFFUSE"/>
-<part name="R2" library="Passives" deviceset="RES-402" device="" value="330"/>
-<part name="R3" library="Passives" deviceset="RES-402" device="" value="330"/>
-<part name="R4" library="Passives" deviceset="RES-402" device="" value="330"/>
+<part name="R2" library="Passives" deviceset="RES-0402" device="" value="330"/>
+<part name="R3" library="Passives" deviceset="RES-0402" device="" value="330"/>
+<part name="R4" library="Passives" deviceset="RES-0402" device="" value="330"/>
 <part name="J5" library="10118193-0001LF" deviceset="10118193-0001LF" device=""/>
 <part name="J1" library="10118193-0001LF" deviceset="10118193-0001LF" device=""/>
 </parts>
